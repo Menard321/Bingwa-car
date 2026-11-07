@@ -1,0 +1,33 @@
+{
+  "name": "bingwa-cars-enterprise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bingwa Cars Enterprise Multi-Branch Dealership, Foreign Importation & 3D Showroom Platform (Dar es Salaam, Tanzania)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^0.469.0",
+    "next": "^16.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0",
+    "three": "^0.171.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/three": "^0.171.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2"
+  }
+}

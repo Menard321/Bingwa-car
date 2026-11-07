@@ -1,0 +1,27 @@
+{
+  "name": "bingwacars/enterprise-backend",
+  "type": "project",
+  "description": "Bingwa Cars Enterprise Multi-Branch Dealership & TRA Customs Logistics API (Laravel 11)",
+  "require": {
+    "php": "^8.3",
+    "laravel/framework": "^11.0",
+    "laravel/sanctum": "^4.0",
+    "laravel/horizon": "^5.24"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "_ide_helper.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
+

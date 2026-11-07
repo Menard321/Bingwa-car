@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@keyframes bingwaMarquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050811;
+  color: #f8fafc;
+}
+
+body {
+  background-color: #050811;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
